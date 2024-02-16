@@ -21,7 +21,8 @@ Additionally, with the ultimate goal of providing an accessible clinical tool, t
 ## Data
 
 The raw data employed in this project were gathered within the framework of a study at the Inspire Lab, Spaulding Rehabilitation Hospital Cambridge.
-Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed due to numerous occlusions encountered during the data capture process for one participant. 
+Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed due to numerous occlusions encountered during the data capture process for one participant. Limb kinematics were measured during treadmill walking using a Bertec instrumented split-belt treadmill [Bertec Corp., Columbus, OH] and a 3-D motion capture system [Vicon Motion Systems Ltd., Oxford, UK]. 10 cameras (Vicon T40-S) were used to capture the motion of 39 passive reflective position markers placed on the subjects. Markers were placed on bony landmarks according to the Vicon Plug-in Gait model. Kinematic data were recorded at 250Hz. Kinetic data during treadmill walking were measured using AMTI instrumented walker sensors [Advanced Mechanical Technology Inc., Watertown, MA] at 2500 Hz. 
+
 To establish normative values for walking mechanics parameters, a publicly available dataset containing kinematic and kinetic data from healthy volunteers walking both overground and on a treadmill at various gait speeds was employed to identify matched AB controls for each participant.
 iSCI and AB data can be downloaded here: https://partnershealthcare-my.sharepoint.com/:f:/r/personal/cfrayssinhes_mgh_harvard_edu/Documents/BO2STTrial?csf=1&web=1&e=zrTvCd
 
