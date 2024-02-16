@@ -12,9 +12,9 @@ Additionally, with the ultimate goal of providing an accessible clinical tool, t
 
 ## Table of Contents
 
+- [Data](#data)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Data](#data)
 - [Analysis](#analysis)
 - [Results](#results)
 
