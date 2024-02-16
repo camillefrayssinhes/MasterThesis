@@ -25,6 +25,11 @@ Eight persons with chronic motor iSCI participated in the study. However, data f
 To establish normative values for walking mechanics parameters, a publicly available dataset containing kinematic and kinetic data from healthy volunteers walking both overground and on a treadmill at various gait speeds was employed to identify matched AB controls for each participant.
 iSCI and AB data can be downloaded here: https://partnershealthcare-my.sharepoint.com/:f:/r/personal/cfrayssinhes_mgh_harvard_edu/Documents/BO2STTrial?csf=1&web=1&e=zrTvCd
 
+<figure>
+  <img src="img/demographics.png" alt="Demographics">
+  <figcaption>Demographics of participants with iSCI. The raw data employed in this project were gathered within the framework of a study at the Inspire Lab, Spaulding Rehabilitation Hospital Cambridge. Abbreviations: AD, Assistive Device; AIS, ASIA Impairment Scale; BL, Baseline; C, Cervical; F, Female; L, Left; LEMS, Lower Extremity Motor Scores; M, Male;  R, Right; T, Thoracic.</figcaption>
+</figure>
+
 ## Usage
 
 Data were analysed using Python 3.8.12.
