@@ -1,9 +1,7 @@
 # MasterThesis
 This repository hosts the code I have developed and used for the analysis of the data for my EPFL master thesis conducted at the Inspire Lab at Harvard Medical School. 
 
-# Project Title
-
-Characterisation of walking function in individuals with incomplete spinal cord injury
+# Characterisation of walking function in individuals with incomplete spinal cord injury
 
 ## Overview
 
@@ -14,24 +12,18 @@ Additionally, with the ultimate goal of providing an accessible clinical tool, t
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Data](#data)
 - [Analysis](#analysis)
 - [Results](#results)
 
-## Getting Started
-
-### Prerequisites
-
-Data were analysed using Python 3.8.12.
 
 ## Usage
 
-Explain how users can use your project. Include examples or code snippets if applicable.
+Data were analysed using Python 3.8.12.
+
+Execute the two provided Jupyter notebooks ([Data_Analysis](/Data_Analysis.ipynb) and [OpenCap](/OpenCap.ipynb)) to initiate the generation of data and plots. These notebooks serve as the primary interface for interacting with the project. The code required for the Jupyter notebooks is organized in the [src](/src) and [src_opencap](/src_opencap) directories.
 
 ## Project Structure
 
@@ -60,17 +52,13 @@ Explain how users can use your project. Include examples or code snippets if app
 ## Data
 
 The raw data employed in this project were gathered within the framework of a study at the Inspire Lab, Spaulding Rehabilitation Hospital Cambridge.
-Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed because of the motion capture system's unstable accuracy for 1 participant. 
+Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed due to numerous occlusions encountered during the data capture process for one participant. 
 To establish normative values for walking mechanics parameters, a publicly available dataset containing kinematic and kinetic data from healthy volunteers walking both overground and on a treadmill at various gait speeds was employed to identify matched AB controls for each participant.
-iSCI and AB data can be downloaded here: 
-
-## Analysis
-
-Provide an overview of the analysis process, algorithms used, and any important considerations. Include links to relevant code files or notebooks.
+iSCI and AB data can be downloaded here: https://partnershealthcare-my.sharepoint.com/:f:/r/personal/cfrayssinhes_mgh_harvard_edu/Documents/BO2STTrial?csf=1&web=1&e=zrTvCd
 
 ## Results
 
-In conclusion, this work introduces a methodology for a comprehensive assessment of the walking patterns of individuals with iSCI. The employed gait-related parameters complemented conventional measures of walking by offering insights into force production, coordination, consistency, symmetry, and spatiotemporal aspects of gait. The combination of these parameters has the potential to shed light on compensatory mechanisms, fatigue, and rhythm issues. Consequently, the diverse gait impairments within this heterogeneous population can be characterised in a more objective and comprehensive manner than with current clinical practices. OpenCap software holds the promise for translating this methodology into a user-friendly clinical tool for gait assessments; however, further investigations are required to assess the accuracy of estimated kinematics specific to the challenges faced by the SCI population during walking. Additionally, estimating kinetics remains computationally expensive, currently limiting its applicability in clinical settings. This research is a step toward improved monitoring of the impacts of rehabilitation or treatment on walking recovery, laying the foundation for more personalised therapeutic approaches.
+This work introduces a methodology for a comprehensive assessment of the walking patterns of individuals with iSCI. The employed gait-related parameters complemented conventional measures of walking by offering insights into force production, coordination, consistency, symmetry, and spatiotemporal aspects of gait. The combination of these parameters has the potential to shed light on compensatory mechanisms, fatigue, and rhythm issues. Consequently, the diverse gait impairments within this heterogeneous population can be characterised in a more objective and comprehensive manner than with current clinical practices. OpenCap software holds the promise for translating this methodology into a user-friendly clinical tool for gait assessments; however, further investigations are required to assess the accuracy of estimated kinematics specific to the challenges faced by the SCI population during walking. Additionally, estimating kinetics remains computationally expensive, currently limiting its applicability in clinical settings. This research is a step toward improved monitoring of the impacts of rehabilitation or treatment on walking recovery, laying the foundation for more personalised therapeutic approaches.
 
 ## Acknowledgments
 
