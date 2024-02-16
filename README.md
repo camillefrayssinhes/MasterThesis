@@ -18,12 +18,18 @@ Additionally, with the ultimate goal of providing an accessible clinical tool, t
 - [Analysis](#analysis)
 - [Results](#results)
 
+## Data
+
+The raw data employed in this project were gathered within the framework of a study at the Inspire Lab, Spaulding Rehabilitation Hospital Cambridge.
+Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed due to numerous occlusions encountered during the data capture process for one participant. 
+To establish normative values for walking mechanics parameters, a publicly available dataset containing kinematic and kinetic data from healthy volunteers walking both overground and on a treadmill at various gait speeds was employed to identify matched AB controls for each participant.
+iSCI and AB data can be downloaded here: https://partnershealthcare-my.sharepoint.com/:f:/r/personal/cfrayssinhes_mgh_harvard_edu/Documents/BO2STTrial?csf=1&web=1&e=zrTvCd
 
 ## Usage
 
 Data were analysed using Python 3.8.12.
 
-Execute the two provided Jupyter notebooks ([Data_Analysis](/Data_Analysis.ipynb) and [OpenCap](/OpenCap.ipynb)) to initiate the generation of data and plots. These notebooks serve as the primary interface for interacting with the project. The code required for the Jupyter notebooks is organized in the [src](/src) and [src_opencap](/src_opencap) directories.
+Utilise the provided link to download the necessary data. Once downloaded, create a folder named "BO2STTrial" at the same level as the Jupyter notebooks. Execute the two provided Jupyter notebooks ([Data_Analysis](/Data_Analysis.ipynb) and [OpenCap](/OpenCap.ipynb)) to initiate the generation of data and plots. These notebooks serve as the primary interface for interacting with the project. Navigate to the [src](/src) and [src_opencap](/src_opencap) directories to access the organized source code required for the Jupyter notebooks.
 
 ## Project Structure
 
@@ -47,14 +53,6 @@ Execute the two provided Jupyter notebooks ([Data_Analysis](/Data_Analysis.ipynb
   - [angles.py](/src_opencap/angles.py): Resample, synchronise, and compute the MAE of lower extremities joint angle time series between Vicon and OpenCap.
 - [Data_Analysis](/Data_Analysis.ipynb): Jupyter notebook dedicated to generating data and plots for the master thesis. This notebook specifically examines the walking mechanics of individuals with iSCI and AB controls, and produce the finalised polar plots used to assess the evolution of gait quality throughout rehabilitation, interventions, and changes in walking speed. 
 - [OpenCap](/OpenCap.ipynb): Jupyter notebook responsible for generating the data and plots utilised in the master thesis. This notebook focuses on comparing the accuracy of OpenCap-estimated joint angles with those obtained from Vicon.
-
-
-## Data
-
-The raw data employed in this project were gathered within the framework of a study at the Inspire Lab, Spaulding Rehabilitation Hospital Cambridge.
-Eight persons with chronic motor iSCI participated in the study. However, data from only 7 participants were analysed due to numerous occlusions encountered during the data capture process for one participant. 
-To establish normative values for walking mechanics parameters, a publicly available dataset containing kinematic and kinetic data from healthy volunteers walking both overground and on a treadmill at various gait speeds was employed to identify matched AB controls for each participant.
-iSCI and AB data can be downloaded here: https://partnershealthcare-my.sharepoint.com/:f:/r/personal/cfrayssinhes_mgh_harvard_edu/Documents/BO2STTrial?csf=1&web=1&e=zrTvCd
 
 ## Results
 
